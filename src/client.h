@@ -24,9 +24,9 @@
 #define CLIENT_H
 
 #include "platform/util/StdString.h"
-#include "kodi/libXBMC_addon.h"
-#include "kodi/libXBMC_pvr.h"
-#include "kodi/libKODI_guilib.h"
+#include "mrmc/libXBMC_addon.h"
+#include "mrmc/libXBMC_pvr.h"
+#include "mrmc/libKODI_guilib.h"
 
 enum eStreamingMethod
 {
