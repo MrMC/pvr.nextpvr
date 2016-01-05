@@ -53,7 +53,7 @@ CDialogRecordPref::CDialogRecordPref(std::string showName, std::string showDescr
 
   // needed for every dialog
   _confirmed = -1;				// init to failed load value (due to xml file not being found)
-  _window = GUI->Window_create("RecordPrefs.xml", "Confluence", false, true);
+  _window = GUI->Window_create("RecordPrefs.xml", "MrMC", false, true);
   _window->m_cbhdl = this;
   _window->CBOnInit = OnInitCB;
   _window->CBOnFocus = OnFocusCB;
